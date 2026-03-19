@@ -18,12 +18,12 @@ INSERT INTO `cat_usuarios` (
 -- Admin (acceso total)
 (1, 'Administrador Prueba', 'admin', 
  '$2y$10$z8vX8z8z8z8z8z8z8z8z8u8z8z8z8z8z8z8z8z8z8z8z8z8z8z8z8z',  -- password_hash('Admin123!', PASSWORD_DEFAULT)
- 'admin@vibecodingmexico.com', 'Admin', 1, '5512345678'),
+ 'admin@empresa-prueba.com', 'Admin', 1, '5512345678'),
 
 -- Consultor (puede ver y responder tickets de empresas asignadas)
 (1, 'Consultor Prueba Uno', 'consultor1', 
  '$2y$10$z8vX8z8z8z8z8z8z8z8z8u8z8z8z8z8z8z8z8z8z8z8z8z8z8z8z8z',  -- password_hash('Consultor456!', PASSWORD_DEFAULT)
- 'consultor1@vibecodingmexico.com', 'Consultor', 1, '5523456789'),
+ 'consultor1@empresa-prueba.com', 'Consultor', 1, '5523456789'),
 
 -- Master (ve TODOS los tickets de su empresa)
 (1, 'Master Empresa Prueba', 'master1', 
