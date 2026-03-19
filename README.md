@@ -22,7 +22,16 @@ Aunque es funcional y auditable, se distribuye como parte de un experimento de *
 
 * **Uso bajo su propio riesgo:** El autor no se hace responsable de la pérdida de datos o fallos de seguridad derivados de su implementación sin una auditoría previa por parte del usuario.
 * **Estado de Desarrollo:** Se considera estable en su lógica de negocio, pero requiere pruebas de estrés y una revisión de seguridad perimetral antes de ser desplegado en servidores con datos sensibles.
+* **Cuidado con Login:** Este sistema no tiene dadosdde alta usuarios ni se han probado, es parte de la prueba de GROK.
 ---
+### 🔑 Credenciales de Acceso (Entorno de Prueba)
+
+| Rol | Username | Contraseña | Email | Notas |
+| :--- | :--- | :--- | :--- | :--- |
+| **Admin** | `admin` | `Admin123!` | admin@vibecodingmexico.com | Acceso completo al sistema y auditoría. |
+| **Consultor** | `consultor1` | `Consultor456!` | consultor1@vibecodingmexico.com | Responder tickets y ver reportes de minutos. |
+| **Master** | `master1` | `Master789!` | master1@empresa-prueba.com | Ve todos los tickets de su propia empresa. |
+| **User** | `usuario1` | `Usuario101!` | usuario1@empresa-prueba.com | Solo ve sus propios tickets. |---
 
 ## ⚠️ Estado del Laboratorio (Bitácora de Control)
 
