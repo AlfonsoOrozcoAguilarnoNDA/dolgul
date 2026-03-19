@@ -13,6 +13,17 @@ Proyecto
 https://vibecodingmexico.com/laboratorio-4-tickets-multiempresa/
 ---
 
+## ⚠️ Aviso Importante (Estado del Proyecto)
+
+**ESTO ES UNA PRUEBA DE CONCEPTO AVANZADA (PoC) AL 90%.**
+
+Este software **NO HA SIDO PROBADO PARA ENTORNOS DE PRODUCCIÓN CRÍTICOS**. 
+Aunque es funcional y auditable, se distribuye como parte de un experimento de **Vibe Coding** en el **Laboratorio 4**. 
+
+* **Uso bajo su propio riesgo:** El autor no se hace responsable de la pérdida de datos o fallos de seguridad derivados de su implementación sin una auditoría previa por parte del usuario.
+* **Estado de Desarrollo:** Se considera estable en su lógica de negocio, pero requiere pruebas de estrés y una revisión de seguridad perimetral antes de ser desplegado en servidores con datos sensibles.
+---
+
 ## ⚠️ Estado del Laboratorio (Bitácora de Control)
 
 Este sistema ha sido verificado mediante un módulo de auditoría interna de integridad. A diferencia de otros experimentos, **DOLGUL** nació con un enfoque de producción resiliente:
@@ -61,10 +72,14 @@ Monitor de salud que firma digitalmente cada componente del sistema mediante SHA
 
 Este proyecto forma parte de la serie de experimentos en **[vibecodingmexico.com](https://vibecodingmexico.com)**. Mi enfoque es la **Programación Real**: la que sobrevive a servidores compartidos, redes inestables y auditorías contables.
 
+> **Nota de Origen:** La lógica original de este sistema es de Alfonso Orozco Aguilar de mas o menos 2008. En 2026 fue organizada por **Claude (Anthropic) Sonnet 4.6 ** y se encuentra documentada en el benchmark detallado:  
+> 📄 [SistemaTickets_Grok_Benchmark.docx](https://github.com/AlfonsoOrozcoAguilarnoNDA/dolgul/blob/main/SistemaTickets_Grok_Benchmark.docx)
+
+Objetivo eravalidar la capacidadde Grok de trabajar por chunks. (partes significativas) parecido al lab 2 con Kimi. La idea esquesea replicable en partes o retomada por otro modelo si es necesario.
+
 Mi nombre es **Alfonso Orozco Aguilar**, mexicano, programador desde 1991. En 2026 compagino mi carrera como DevOps Senior con la licenciatura en Contaduría.
 
 **Hallazgo del Laboratorio 4:** Grok demostró ser un arquitecto de lógica contable capaz, pero con tendencia a "despreciar" la integridad de los datos si no hay una supervisión humana de tres décadas de experiencia guiando el prompt. La IA puede alucinar código, pero un profesional no puede permitirse alucinar datos.
-
 ---
 
 ## ⚖️ Licencia
