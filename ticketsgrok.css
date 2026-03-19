@@ -1,0 +1,108 @@
+/*
+ * DOLGUL - Sistema de Tickets (Vigilancia)
+ * Laboratorio 4: vibecodingmexico.com
+ * Copyright (C) 2026 Alfonso Orozco Aguilar
+ * Este programa es software libre: puedes redistribuirlo y/o modificarlo
+ * bajo los términos de la Licencia Pública General de GNU según lo publicado
+ * por la Fundación para el Software Libre, ya sea la versión 3 de la Licencia,
+ * o (a tu elección) cualquier versión posterior.
+ *
+ * Este programa se distribuye con la esperanza de que sea útil,
+ * pero SIN NINGUNA GARANTÍA; sin incluso la garantía implícita de
+ * MERCANTILIDAD o APTITUD PARA UN PROPÓSITO PARTICULAR.
+ * Vea la Licencia Pública General de GNU para más detalles.
+ *
+ * Deberías haber recibido una copia de la Licencia Pública General de GNU
+ * junto con este programa. Si no es así, consulta <https://www.gnu.org/licenses/>.
+ */
+
+/* Modelo: Grok (xAI) - Chunk 5: ticketsgrok.css */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+#subcontainer {
+    padding-top: 90px;      /* compensa navbar fixed-top (~56px + margen) */
+    padding-bottom: 70px;   /* compensa footer fixed-bottom */
+    min-height: calc(100vh - 160px);
+    overflow-x: auto;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f3f5;
+    cursor: pointer;
+}
+
+.badge-priority {
+    font-size: 0.85em;
+    padding: 0.4em 0.8em;
+    color: white;
+}
+
+.badge-status-open    { background-color: #28a745; } /* verde */
+.badge-status-progress{ background-color: #007bff; } /* azul */
+.badge-status-closed  { background-color: #6c757d; } /* gris */
+
+.btn-action {
+    font-size: 0.9rem;
+    padding: 0.25rem 0.6rem;
+    margin: 0 0.2rem;
+}
+
+.btn-responder { background-color: #17a2b8; border-color: #17a2b8; }
+.btn-cerrar    { background-color: #dc3545; border-color: #dc3545; }
+.btn-asignar   { background-color: #28a745; border-color: #28a745; }
+.btn-remover   { background-color: #fd7e14; border-color: #fd7e14; }
+.btn-edit      { background-color: #ffc107; border-color: #ffc107; color: #212529; }
+.btn-delete    { background-color: #6c757d; border-color: #6c757d; }
+
+.form-control, .form-control:focus {
+    border-radius: 0.4rem;
+}
+
+.jumbotron {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.priority-1 { background-color: #dc3545 !important; } /* Alta */
+.priority-2 { background-color: #ffc107 !important; } /* Media  */
+.priority-3 { background-color: #28a745 !important; } /* Baja   */
+.priority-4 { background-color: #343a40 !important; } /* Urgente*/
+
+.swatch-color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.inline-edit input,
+.inline-edit select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+tr.editing td {
+    background-color: #fff3cd !important;
+}
+
+/* Mejora legibilidad en móviles */
+@media (max-width: 767.98px) {
+    .navbar-nav {
+        margin-bottom: 1rem;
+    }
+    #subcontainer {
+        padding-top: 110px;
+        padding-bottom: 90px;
+    }
+}
