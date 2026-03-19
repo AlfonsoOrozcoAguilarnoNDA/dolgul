@@ -89,7 +89,7 @@ Objetivo eravalidar la capacidadde Grok de trabajar por chunks. (partes signific
 
 Mi nombre es **Alfonso Orozco Aguilar**, mexicano, programador desde 1991. En 2026 compagino mi carrera como DevOps Senior con la licenciatura en Contaduría.
 
-**Hallazgo del Laboratorio 4:** Grok demostró ser un arquitecto de lógica contable capaz, pero con tendencia a "despreciar" la integridad de los datos si no hay una supervisión humana de tres décadas de experiencia guiando el prompt. La IA puede alucinar código, pero un profesional no puede permitirse alucinar datos.
+**Hallazgo del Laboratorio 4:** Grok demostró ser un arquitecto de lógica contable capaz, pero aquí el diseño no es de el. Hay una supervisión humana de tres décadas de experiencia guiando el prompt. La IA puede alucinar código, pero un profesional no puede permitirse alucinar datos.
 ---
 
 ## ⚖️ Licencia
