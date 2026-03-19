@@ -25,6 +25,7 @@ Aunque es funcional y auditable, se distribuye como parte de un experimento de *
 * **Cuidado con Login:** Este sistema no tiene dadosdde alta usuarios ni se han probado, es parte de la prueba de GROK.
 ---
 ### 🔑 Credenciales de Acceso (Entorno de Prueba)
+usuarios_prueba.sql
 
 | Rol | Username | Contraseña | Email | Notas |
 | :--- | :--- | :--- | :--- | :--- |
