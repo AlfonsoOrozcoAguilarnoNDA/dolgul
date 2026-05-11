@@ -19,9 +19,9 @@ https://vibecodingmexico.com/laboratorio-4-tickets-multiempresa/
 **ESTO ES UNA PRUEBA DE CONCEPTO AVANZADA (PoC) AL 90%.**
 --
 
-**Suspendido temporalmente por la baja de funcionalidad de Grok del 18 de marzo 2026**
+## Suspendido temporalmente por la baja de funcionalidad de Grok del 18 de marzo 2026
 
-Grok fue bastante bueno en febrero y marzo, unos 45 dias, per oa partor de ese moemtno regresó a estados como de Octubre de 2025. Es 20% de su capacidad de cuando hice esto, imposible seguri con Grok.
+Grok fue bastante bueno en febrero y marzo, unos 45 dias, pero a partir de 18 mar 2026 regresó a estados como de Octubre de 2025. Es 20% de su capacidad de cuando hice esto, imposible seguir con Grok.
 ---
 
 Este software **NO HA SIDO PROBADO PARA ENTORNOS DE PRODUCCIÓN CRÍTICOS**. 
