@@ -11,11 +11,18 @@ La misión: Evaluar a **Grok (xAI)** como arquitecto de lógica de negocio pesad
 
 Proyecto
 https://vibecodingmexico.com/laboratorio-4-tickets-multiempresa/
+
 ---
 
 ## ⚠️ Aviso Importante (Estado del Proyecto)
 
 **ESTO ES UNA PRUEBA DE CONCEPTO AVANZADA (PoC) AL 90%.**
+--
+
+**Suspendido temporalmente por la baja de funcionalidad de Grok del 18 de marzo 2026**
+
+Grok fue bastante bueno en febrero y marzo, unos 45 dias, per oa partor de ese moemtno regresó a estados como de Octubre de 2025. Es 20% de su capacidad de cuando hice esto, imposible seguri con Grok.
+---
 
 Este software **NO HA SIDO PROBADO PARA ENTORNOS DE PRODUCCIÓN CRÍTICOS**. 
 Aunque es funcional y auditable, se distribuye como parte de un experimento de **Vibe Coding** en el **Laboratorio 4**. 
