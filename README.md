@@ -21,7 +21,7 @@ https://vibecodingmexico.com/laboratorio-4-tickets-multiempresa/
 
 ## Suspendido temporalmente por la baja de funcionalidad de Grok del 18 de marzo 2026
 
-Grok fue bastante bueno en febrero y marzo, unos 45 dias, pero a partir de 18 mar 2026 regresó a estados como de Octubre de 2025. Es 20% de su capacidad de cuando hice esto, imposible seguir con Grok.
+Grok fue bastante bueno en febrero y marzo, unos 45 dias, pero a partir de 18 mar 2026 en gráficos y 22 de marzo en código, regresó a estados como de Octubre de 2025. Es 20% de su capacidad de cuando hice esto el 19 de marzo, imposible seguir con Grok.
 ---
 
 Este software **NO HA SIDO PROBADO PARA ENTORNOS DE PRODUCCIÓN CRÍTICOS**. 
