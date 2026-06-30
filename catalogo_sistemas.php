@@ -18,10 +18,13 @@
  */
 
 // Modelo: Grok (xAI) - Chunk 10: catalogo_sistemas.php
-
+session_start();
 require_once 'headergrok.php';
+echo catalogo_sistemas();
 
-if ($_SESSION['user_role'] !== 'Admin') {
+function catalogo_sistemas(){
+global $link;    
+    if ($_SESSION['user_role'] !== 'Admin') {
     echo '<div class="alert alert-danger">Acceso denegado.</div>';
     require_once 'footergrok.php';
     exit;
@@ -146,4 +149,5 @@ $result = mysqli_query($link, "SELECT * FROM cat_productos ORDER BY productos_na
     </table>
 </div>
 
-<?php require_once 'footergrok.php'; ?>
+<?php require_once 'footergrok.php'; }
+?>
