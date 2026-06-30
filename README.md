@@ -41,10 +41,10 @@ usuarios_prueba.sql
 
 | Rol | Username | Contraseña | Email | Notas |
 | :--- | :--- | :--- | :--- | :--- |
-| **Admin** | `admin` | `Admin123!` | admin@empresa-prueba.com | Acceso completo al sistema y auditoría. |
-| **Consultor** | `consultor1` | `Consultor456!` | consultor1@empresa-prueba.com | Responder tickets y ver reportes de minutos. |
-| **Master** | `master1` | `Master789!` | master1@empresa-prueba.com | Ve todos los tickets de su propia empresa. |
-| **User** | `usuario1` | `Usuario101!` | usuario1@empresa-prueba.com | Solo ve sus propios tickets. |---
+| **Admin** | `admin` | `Admin123` | admin@empresa-prueba.com | Acceso completo al sistema y auditoría. |
+| **Consultor** | `consultor1` | `n/a` | consultor1@empresa-prueba.com | Responder tickets y ver reportes de minutos. |
+| **Master** | `master1` | `n/a` | master1@empresa-prueba.com | Ve todos los tickets de su propia empresa. |
+| **User** | `usuario1` | `n/a` | usuario1@empresa-prueba.com | Solo ve sus propios tickets. |---
 
 ## ⚠️ Estado del Laboratorio (Bitácora de Control)
 
