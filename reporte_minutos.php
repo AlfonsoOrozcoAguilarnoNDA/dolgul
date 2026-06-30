@@ -18,9 +18,12 @@
  */
 
 // Modelo: Grok (xAI) - Chunk 19: reporte_minutos.php
-
+session_start();
 require_once 'headergrok.php';
+echo reporte_minutos();
 
+function reporte_minutos(){
+global $link;
 if (!in_array($_SESSION['user_role'] ?? '', ['Admin', 'Consultor'])) {
     echo '<div class="alert alert-danger">Acceso denegado.</div>';
     require_once 'footergrok.php';
@@ -200,4 +203,6 @@ if ($modo === 'cliente' && $empresas_id > 0) {
     </div>
 <?php endif; ?>
 
-<?php require_once 'footergrok.php'; ?>
+<?php require_once 'footergrok.php';
+}
+?>
