@@ -23,6 +23,7 @@ require_once 'headergrok.php';
 echo liga_consultor_empresa();
 
 function liga_consultor_empresa(){
+    global $link;
     if ($_SESSION['user_role'] !== 'Admin') {
     echo '<div class="alert alert-danger">Acceso denegado.</div>';
     require_once 'footergrok.php';
