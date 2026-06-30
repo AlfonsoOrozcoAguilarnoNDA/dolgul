@@ -22,7 +22,7 @@
 require_once 'headergrok.php';
 
 if ($_SESSION['user_role'] !== 'Admin') {
-    echo '<div class="alert alert-danger">Acceso denegado.</div>';
+    echo '<div class="alert alert-danger">Acceso denegado para rol '.$_SESSION['user_role'] .'.</div>';
     require_once 'footergrok.php';
     exit;
 }
