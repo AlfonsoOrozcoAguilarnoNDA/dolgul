@@ -18,10 +18,12 @@
  */
 
 // Modelo: Grok (xAI) - Chunk 13: liga_consultor_empresa.php
-
+session_start();
 require_once 'headergrok.php';
+echo liga_consultor_empresa();
 
-if ($_SESSION['user_role'] !== 'Admin') {
+function liga_consultor_empresa(){
+    if ($_SESSION['user_role'] !== 'Admin') {
     echo '<div class="alert alert-danger">Acceso denegado.</div>';
     require_once 'footergrok.php';
     exit;
@@ -129,6 +131,8 @@ if ($empresa_seleccionada > 0) {
 
 <?php else: ?>
     <div class="alert alert-info">Selecciona una empresa para ver y modificar las asignaciones de consultores.</div>
-<?php endif; ?>
+<?php endif;
+}
+?>
 
 <?php require_once 'footergrok.php'; ?>
