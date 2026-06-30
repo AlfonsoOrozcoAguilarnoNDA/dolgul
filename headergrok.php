@@ -64,7 +64,7 @@ $es_master    = ($rol === 'Master');
                 <!-- Menú Administrador -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="adminDrop" role="button" data-toggle="dropdown">
-                        <i class="fas fa-cogs mr-1"></i>Admin
+                        <i class="fas fa-user-tie mr-1 text-primary"></i>Admin
                     </a>
                     <div class="dropdown-menu">
                         <h6 class="dropdown-header"><i class="fas fa-book mr-2"></i>Catálogos</h6>
