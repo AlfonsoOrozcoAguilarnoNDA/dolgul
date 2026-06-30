@@ -1,4 +1,5 @@
 <?php
+session_start();
 // Modelo: Claude Sonnet 4.6
 // Licencia GPL
 // Módulo: Index / Punto de entrada
