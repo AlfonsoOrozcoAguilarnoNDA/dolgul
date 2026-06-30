@@ -53,7 +53,7 @@ $es_master    = ($rol === 'Master');
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="index.php"><i class="fas fa-ticket-alt mr-2"></i>Sistema de Tickets</a>
+    <a class="navbar-brand" href="index.php"><i class="fas fa-headset mr-2"></i>Sistema de Tickets</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -148,12 +148,15 @@ $es_master    = ($rol === 'Master');
     </div>
 </div>
 
-<!-- Jumbotron (visible solo desktop) -->
-<div class="jumbotron jumbotron-fluid d-none d-md-block bg-primary text-white mb-0">
+<?php
+/*    <!-- Jumbotron (visible solo desktop) -->
+    <div class="jumbotron jumbotron-fluid d-none d-md-block bg-primary text-white mb-0">
     <div class="container">
         <h1 class="display-4"><i class="fas fa-headset mr-3"></i>Sistema de Soporte Técnico</h1>
         <p class="lead"><i class="fas fa-clipboard-list mr-2"></i>Registro y seguimiento de tickets de consultoría</p>
     </div>
 </div>
+*/
+?>
 
 <div id="subcontainer" class="container-fluid pt-5 pb-5">
