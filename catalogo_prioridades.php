@@ -19,7 +19,7 @@
 
 // Modelo: Grok (xAI) - Chunk 7: catalogo_prioridades.php
 session_start();
-require_once "main_functions.php";
+require_once "main_tickets.php";
 require_once 'headergrok.php';
 echo catalogo_prioridades();
 ?>
