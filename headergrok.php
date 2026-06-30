@@ -85,9 +85,9 @@ $es_master    = ($rol === 'Master');
 
             <!-- Menú común a todos -->
             <li class="nav-item"><a class="nav-link" href="index.php">Inicio</a></li>
-            <li class="nav-item"><a class="nav-link" href="nuevo_ticket.php">Nuevo Ticket</a></li>
-            <li class="nav-item"><a class="nav-link" href="tickets_abiertos.php">Abiertos</a></li>
-            <li class="nav-item"><a class="nav-link" href="tickets_cerrados.php">Cerrados</a></li>
+            <li class="nav-item"><i class="fas fa-plus-circle fa-3x text-warning"></i> <a class="nav-link" href="nuevo_ticket.php">Nuevo Ticket</a></li>
+            <li class="nav-item"><i class="fas fa-folder-open fa-3x text-warning"></i> <a class="nav-link" href="tickets_abiertos.php">Abiertos</a></li>
+            <li class="nav-item"><i class="fas fa-folder fa-3x text-success"></i> <a class="nav-link" href="tickets_cerrados.php">Cerrados</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Reportes</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Licencia</a></li>
         </ul>
