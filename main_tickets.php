@@ -19,19 +19,19 @@
 
 // Modelo: Grok (xAI) - 
 
-function dolgul_footer(){
-// Chunk 4: footergrok.php
-return '</div> <!-- cierre de #subcontainer -->
+function dolgul_footer(): string {
+    $tiempo_fin = microtime(true);
+    $tiempo_total = round($tiempo_fin - $GLOBALS['tiempo_inicio'], 3);
+    $php_version = phpversion();
+    $ip = htmlspecialchars($_SERVER['REMOTE_ADDR'] ?? '—');
+
+    return '</div> <!-- cierre de #subcontainer -->
 
 <footer class="footer fixed-bottom bg-dark text-white py-2">
     <div class="container-fluid text-center small">
-        <span>PHP v<?php echo phpversion(); ?> • Sistema de Tickets • © 2026 vibecodingmexico.com</span>
-        <span class="mx-3">IP: <?php echo htmlspecialchars($_SERVER['REMOTE_ADDR'] ?? '—'); ?></span>
-        <span>Tiempo de carga: <?php
-            $tiempo_fin = microtime(true);
-            $tiempo_total = round($tiempo_fin - $tiempo_inicio, 3);
-            echo $tiempo_total . ' seg';
-        ?></span>
+        <span>PHP v' . $php_version . ' • Sistema de Tickets • © 2026 vibecodingmexico.com</span>
+        <span class="mx-3">IP: ' . $ip . '</span>
+        <span>Tiempo de carga: ' . $tiempo_total . ' seg</span>
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
