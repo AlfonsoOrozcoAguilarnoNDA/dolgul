@@ -509,9 +509,5 @@ if ($empresa_seleccionada > 0) {
     <div class="alert alert-info">Selecciona una empresa para ver y modificar las asignaciones de <?= strtolower($label_sistemas) ?>.</div>
 <?php endif;
 require_once 'footergrok.php'; 
-} // liga_sistema_empresa
-
-?>
-
-<?php require_once 'footergrok.php'; 
 } // liga_sistema_proceso
+?>
