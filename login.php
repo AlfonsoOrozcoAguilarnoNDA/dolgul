@@ -29,14 +29,14 @@ $mensaje_dia = 'Bienvenido al Sistema de Soporte Técnico - Recuerda registrar t
 $error = '';
 
 // Procesar login
+require_once 'config.php';  // $link disponible
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = trim($_POST['username'] ?? '');
     $password = trim($_POST['password'] ?? '');
 
     if (empty($username) || empty($password)) {
         $error = 'Usuario y contraseña son obligatorios.';
-    } else {
-        require_once 'config.php';  // $link disponible
+    } else {        
 
         mysqli_query($link, "SET sql_mode = ''");
 
