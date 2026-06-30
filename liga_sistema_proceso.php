@@ -18,9 +18,12 @@
  */
 
 // Modelo: Grok (xAI) - Chunk 14: liga_sistema_proceso.php
-
+session_start();
 require_once 'headergrok.php';
+echo liga_sistema_proceso.php();
 
+function liga_sistema_proceso(){
+global $link;
 if ($_SESSION['user_role'] !== 'Admin') {
     echo '<div class="alert alert-danger">Acceso denegado.</div>';
     require_once 'footergrok.php';
@@ -127,6 +130,8 @@ if ($sistema_seleccionado > 0) {
 
 <?php else: ?>
     <div class="alert alert-info">Selecciona un <?= strtolower($label_sistemas) ?> para ver y modificar las asignaciones de <?= strtolower($label_procesos) ?>.</div>
-<?php endif; ?>
+<?php endif;
+?>
 
-<?php require_once 'footergrok.php'; ?>
+<?php require_once 'footergrok.php'; }
+?>
