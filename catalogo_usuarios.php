@@ -20,8 +20,6 @@
 // Modelo: Grok (xAI) - Chunk 8: catalogo_usuarios.php
 session_start();
 require_once 'headergrok.php';
-print_r($_SESSION);
-
 if ($_SESSION['user_role'] !== 'Admin') {
     echo '<div class="alert alert-danger">Acceso denegado para rol '.$_SESSION['user_role'] .'.</div>';
     require_once 'footergrok.php';
