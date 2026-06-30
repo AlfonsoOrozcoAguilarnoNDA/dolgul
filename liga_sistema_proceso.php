@@ -20,7 +20,7 @@
 // Modelo: Grok (xAI) - Chunk 14: liga_sistema_proceso.php
 session_start();
 require_once 'headergrok.php';
-echo liga_sistema_proceso.php();
+echo liga_sistema_proceso();
 
 function liga_sistema_proceso(){
 global $link;
