@@ -19,8 +19,11 @@
 
 // Modelo: Grok (xAI) - Chunk 20: dashboard.php
 
+session_start();
 require_once 'headergrok.php';
-
+echo dashboard();
+function dashboard(){
+global $link;    
 if (!in_array($_SESSION['user_role'] ?? '', ['Admin', 'Consultor'])) {
     echo '<div class="alert alert-danger">Acceso denegado. Solo para Administradores y Consultores.</div>';
     require_once 'footergrok.php';
@@ -280,6 +283,7 @@ $result = mysqli_query($link, $query);
         <?php endfor; ?>
     </ul>
 </nav>
-<?php endif; ?>
+<?php endif;}
+?>
 
 <?php require_once 'footergrok.php'; ?>
