@@ -18,9 +18,12 @@
  */
 
 // Modelo: Grok (xAI) - Chunk 7: catalogo_prioridades.php
-
+session_start();
 require_once 'headergrok.php';
+echo catalogo_prioridades();
 
+function catalogo_prioridades(){
+global $link;
 // Solo Admin
 if ($_SESSION['user_role'] !== 'Admin') {
     echo '<div class="alert alert-danger">Acceso denegado.</div>';
@@ -171,4 +174,5 @@ $result = mysqli_query($link, "SELECT * FROM cat_prioridades ORDER BY prioridade
     </table>
 </div>
 
-<?php require_once 'footergrok.php'; ?>
+<?php require_once 'footergrok.php';
+} ?>
