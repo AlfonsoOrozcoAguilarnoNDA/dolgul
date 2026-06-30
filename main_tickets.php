@@ -19,10 +19,9 @@
 
 // Modelo: Grok (xAI) - 
 
-?>
 function dolgul_footer(){
 // Chunk 4: footergrok.php
-echo '</div> <!-- cierre de #subcontainer -->
+return '</div> <!-- cierre de #subcontainer -->
 
 <footer class="footer fixed-bottom bg-dark text-white py-2">
     <div class="container-fluid text-center small">
@@ -40,6 +39,7 @@ echo '</div> <!-- cierre de #subcontainer -->
 </body>
 </html>';
 } // dolgul_footer
+
 function catalogo_categorias(){
 // Chunk 6: catalogo_categorias.php
 global $link;
@@ -178,7 +178,7 @@ $result = mysqli_query($link, "SELECT * FROM cat_categorias ORDER BY tickets_cat
     </table>
 </div>
 
-<?php require_once 'footergrok.php'; 
+<?php echo dolgul_footer();
 } //catalogo_categorias
 
 function catalogo_empresas(){    
@@ -186,7 +186,7 @@ function catalogo_empresas(){
 global $link;
 if ($_SESSION['user_role'] !== 'Admin') {
     echo '<div class="alert alert-danger">Acceso denegado.</div>';
-    require_once 'footergrok.php';
+    echo dolgul_footer();
     exit;
 }
 
@@ -345,7 +345,7 @@ $result = mysqli_query($link, "SELECT * FROM cat_empresas ORDER BY empresas_name
 </nav>
 <?php endif; ?>
 
-<?php require_once 'footergrok.php'; 
+<?php echo dolgul_footer();
 } // catalogo_empresas
 
 function catalogo_prioridades(){
@@ -354,7 +354,7 @@ global $link;
 // Solo Admin
 if ($_SESSION['user_role'] !== 'Admin') {
     echo '<div class="alert alert-danger">Acceso denegado.</div>';
-    require_once 'footergrok.php';
+    echo dolgul_footer();
     exit;
 }
 
@@ -1108,7 +1108,7 @@ if ($empresa_seleccionada > 0) {
 <?php else: ?>
     <div class="alert alert-info">Selecciona una empresa para ver y modificar las asignaciones de consultores.</div>
 <?php endif;
-require_once 'footergrok.php'; 
+echo dolgul_footer();
 } // liga_consultor_empresa
 
 ?>
