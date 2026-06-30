@@ -23,6 +23,7 @@ require_once 'headergrok.php';
 echo nuevo_ticket();
 
 function nuevo_ticket(){
+global $link;
 $rol = $_SESSION['user_role'] ?? 'User';
 $empresa_usuario = (int)($_SESSION['empresa_id'] ?? 1);
 $es_admin = ($rol === 'Admin');
