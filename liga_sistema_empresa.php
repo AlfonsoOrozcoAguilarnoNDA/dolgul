@@ -18,9 +18,12 @@
  */
 
 // Modelo: Grok (xAI) - Chunk 12: liga_sistema_empresa.php
-
+session_start();
 require_once 'headergrok.php';
+echo liga_sistema_empresa();
 
+function liga_sistema_empresa(){
+global $link;
 if ($_SESSION['user_role'] !== 'Admin') {
     echo '<div class="alert alert-danger">Acceso denegado.</div>';
     require_once 'footergrok.php';
@@ -128,6 +131,8 @@ if ($empresa_seleccionada > 0) {
 
 <?php else: ?>
     <div class="alert alert-info">Selecciona una empresa para ver y modificar las asignaciones de <?= strtolower($label_sistemas) ?>.</div>
-<?php endif; ?>
+<?php endif;
+}
+?>
 
 <?php require_once 'footergrok.php'; ?>
