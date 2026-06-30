@@ -58,11 +58,7 @@ CREATE TABLE `cat_usuarios` (
   KEY `idx_users_status` (`users_status`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- por ddefault admin123
-INSERT INTO `cat_usuarios` 
-(`empresas_id`, `users_name`, `users_username`, `users_password`, `users_email`, `users_lastlogin`, `users_newlogin`, `users_admin`, `users_status`, `users_tips`, `telcelular`) 
-VALUES 
-(1, 'Administrador', 'admin', '$2y$12$DGXbnLw7tnZB4UcLxmoTueLRpO14oZNabxyE0Xrh1O7W2/gVi8OM2', 'admin@tu-dominio.com', NULL, NULL, 'Master', 1, 'Ninguno', '');
+// los insert de usuarios estan en otro .sql. revisar.
 -- 4. cat_productos (Sistemas - nombre configurable en header)
 CREATE TABLE `cat_productos` (
   `productos_id`      TINYINT UNSIGNED NOT NULL AUTO_INCREMENT,
