@@ -62,7 +62,7 @@ CREATE TABLE `cat_usuarios` (
 INSERT INTO `cat_usuarios` 
 (`empresas_id`, `users_name`, `users_username`, `users_password`, `users_email`, `users_lastlogin`, `users_newlogin`, `users_admin`, `users_status`, `users_tips`, `telcelular`) 
 VALUES 
-(1, 'Administrador', 'admin', '$2y$10$TN7zDKb1jY9Dmmi3JKujWebUXWdcSMQd5Pq5qHjA6jAeUWKECo9tG', 'admin@tu-dominio.com', NULL, NULL, 'Master', 1, 'Ninguno', '');
+(1, 'Administrador', 'admin', '$2y$12$DGXbnLw7tnZB4UcLxmoTueLRpO14oZNabxyE0Xrh1O7W2/gVi8OM2', 'admin@tu-dominio.com', NULL, NULL, 'Master', 1, 'Ninguno', '');
 -- 4. cat_productos (Sistemas - nombre configurable en header)
 CREATE TABLE `cat_productos` (
   `productos_id`      TINYINT UNSIGNED NOT NULL AUTO_INCREMENT,
