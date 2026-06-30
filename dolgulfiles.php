@@ -18,7 +18,7 @@
  */
 
 // Modelo: Grok (xAI) - Archivo de auditoría e integridad: dolgulfiles.php
-
+session_start();
 require_once 'headergrok.php';
 
 // Solo Administradores pueden ver esta página de auditoría
