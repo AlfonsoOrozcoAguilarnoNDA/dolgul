@@ -18,7 +18,6 @@
  * Deberías haber recibido una copia de la Licencia Pública General de GNU
  * junto con este programa. Si no es así, consulta <https://www.gnu.org/licenses/>.
  */
-session_start();
 $tiempo_inicio = microtime(true);
 $session_usuario = 'YO';  // placeholder - se sobreescribe en login real
 
