@@ -19,7 +19,7 @@
 
 // Modelo: Grok (xAI) - Chunk 9: catalogo_empresas.php
 session_start();
-require_onde "main_tickets.php";
+require_once "main_tickets.php";
 require_once 'headergrok.php';
 echo catalogo_empresas();
 ?>
