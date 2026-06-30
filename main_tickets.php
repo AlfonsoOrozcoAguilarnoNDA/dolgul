@@ -282,9 +282,7 @@ $result = mysqli_query($link, $query);
     </ul>
 </nav>
 <?php endif;
-?>
-
-<?php require_once 'footergrok.php';
+require_once 'footergrok.php';
 } // dashboard
 
 function liga_sistema_proceso(){
