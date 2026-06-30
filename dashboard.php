@@ -283,7 +283,8 @@ $result = mysqli_query($link, $query);
         <?php endfor; ?>
     </ul>
 </nav>
-<?php endif;}
+<?php endif;
 ?>
 
-<?php require_once 'footergrok.php'; ?>
+<?php require_once 'footergrok.php';}
+?>
