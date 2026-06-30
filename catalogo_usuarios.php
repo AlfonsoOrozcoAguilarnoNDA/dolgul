@@ -18,7 +18,7 @@
  */
 
 // Modelo: Grok (xAI) - Chunk 8: catalogo_usuarios.php
-
+session_start();
 require_once 'headergrok.php';
 
 if ($_SESSION['user_role'] !== 'Admin') {
