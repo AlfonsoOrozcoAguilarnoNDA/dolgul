@@ -84,13 +84,7 @@ $es_master    = ($rol === 'Master');
                         <a class="dropdown-item" href="liga_consultor_empresa.php"><i class="fas fa-user-tie mr-2 text-info"></i>Consultor ↔ Empresa</a>
                         <a class="dropdown-item" href="liga_sistema_proceso.php"><i class="fas fa-project-diagram mr-2 text-success"></i><?php echo $label_sistemas; ?> ↔ <?php echo $label_procesos; ?></a>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="dashboard.php"><i class="fas fa-tachometer-alt mr-1"></i>Dashboard</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="reporte_minutos.php"><i class="fas fa-chart-line mr-1"></i>Reportes</a>
-                </li>
+                </li>                
             <?php endif; ?>
 
             <!-- Menú común a todos -->
@@ -107,8 +101,12 @@ $es_master    = ($rol === 'Master');
                 <a class="nav-link" href="tickets_cerrados.php"><i class="fas fa-folder mr-1 text-success"></i>Cerrados</a>
             </li>
             <li class="nav-item">
+                    <a class="nav-link" href="reporte_minutos.php"><i class="fas fa-chart-line mr-1"></i>Minutos</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fas fa-chart-pie mr-1"></i>Reportes</a>
             </li>
+            
             <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fas fa-balance-scale mr-1"></i>Licencia</a>
             </li>
@@ -116,7 +114,7 @@ $es_master    = ($rol === 'Master');
 
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <span class="nav-link text-muted small"><i class="fas fa-robot mr-1"></i>Grok (xAI)</span>
+                <span class="nav-link text-muted small"><i class="fas fa-robot mr-1"></i>Kimi/Grok</span>
             </li>
             <li class="nav-item">
                 <a class="nav-link btn btn-outline-light btn-sm" href="#" data-toggle="modal" data-target="#modalSalir">
