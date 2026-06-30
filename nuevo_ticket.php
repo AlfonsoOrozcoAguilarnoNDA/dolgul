@@ -18,9 +18,11 @@
  */
 
 // Modelo: Grok (xAI) - Chunk 15: nuevo_ticket.php
-
+session_start();
 require_once 'headergrok.php';
+echo nuevo_ticket();
 
+function nuevo_ticket(){
 $rol = $_SESSION['user_role'] ?? 'User';
 $empresa_usuario = (int)($_SESSION['empresa_id'] ?? 1);
 $es_admin = ($rol === 'Admin');
@@ -155,4 +157,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <button type="submit" class="btn btn-primary btn-lg">Abrir Ticket</button>
 </form>
 
-<?php require_once 'footergrok.php'; ?>
+<?php require_once 'footergrok.php'; 
+}
+?>
