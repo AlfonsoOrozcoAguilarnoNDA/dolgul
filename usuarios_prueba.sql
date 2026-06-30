@@ -18,7 +18,7 @@ INSERT INTO `cat_usuarios` (
 -- Admin (acceso total)
     
 (1, 'Administrador Prueba', 'admin', 
- ''$2y$12$DGXbnLw7tnZB4UcLxmoTueLRpO14oZNabxyE0Xrh1O7W2/gVi8OM2',  -- password_hash('Admin123', PASSWORD_DEFAULT)
+ '$2y$12$DGXbnLw7tnZB4UcLxmoTueLRpO14oZNabxyE0Xrh1O7W2/gVi8OM2',  -- password_hash('Admin123', PASSWORD_DEFAULT)
  'admin@empresa-prueba.com', 'Admin', 1, '5512345678'),
 
 -- Consultor (puede ver y responder tickets de empresas asignadas)
