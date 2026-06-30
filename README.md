@@ -23,7 +23,10 @@ https://vibecodingmexico.com/laboratorio-4-tickets-multiempresa/
 
 Grok fue bastante bueno en febrero y marzo, unos 45 dias, pero a partir de 18 mar 2026 en gráficos y 22 de marzo en código, regresó a estados como de Octubre de 2025. Es 20% de su capacidad de cuando hice esto el 19 de marzo, imposible seguir con Grok.
 
-El 29 de junio 2026 Se hacen pruebas con Grok, y aunque lo anterior tenía fallas sobre las que se podía trabajar, Por razones desconocidas se degradó tanto que ni siquiera da algo util. Se harán cambios dejando el proyecto original en docx y lo reduciré manual a otros modos mas tolerables parahacer un sistema funcional. Simplemente la herramienta de marzo tenía fallas, la de junio es catastrófica así que usaré losarchivos originales fusionando y reduciendo a un moonlito funcional, justo lo contrario de l que se esperaba hacer en un principio.
+## Update de 29 de junio 2026
+
+El 29 de junio 2026 Se hacen pruebas con Grok, y aunque lo anterior tenía fallas sobre las que se podía trabajar, Por razones desconocidas se degradó tanto que ni siquiera da algo útil con el mismo prompt y ya no es reproducible. Se harán cambios dejando el docx del proyecto original y lo reduciré manual a menos archivos para hacer un sistema funcional. Simplemente la herramienta de marzo tenía fallas, la de junio es catastrófica así que usaré los archivos originales fusionando y reduciendo a un monolito funcional, justo lo contrario de lo que se esperaba hacer en un principio. Se hace lo que el software requiere. Pero el plan original y l oque se ve en junio, dicen que Grok  no es funcional en procesos moderadamente complejos como este. Ni que decir de sistemas reales.
+
 ---
 
 Este software **NO HA SIDO PROBADO PARA ENTORNOS DE PRODUCCIÓN CRÍTICOS**. 
