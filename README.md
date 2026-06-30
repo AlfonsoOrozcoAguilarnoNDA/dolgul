@@ -22,6 +22,8 @@ https://vibecodingmexico.com/laboratorio-4-tickets-multiempresa/
 ## Suspendido temporalmente por la baja de funcionalidad de Grok del 18 de marzo 2026
 
 Grok fue bastante bueno en febrero y marzo, unos 45 dias, pero a partir de 18 mar 2026 en gráficos y 22 de marzo en código, regresó a estados como de Octubre de 2025. Es 20% de su capacidad de cuando hice esto el 19 de marzo, imposible seguir con Grok.
+
+El 29 de junio 2026 Se hacen pruebas con Grok, y aunque lo anterior tenía fallas sobre las que se podía trabajar, Por razones desconocidas se degradó tanto que ni siquiera da algo util. Se harán cambios dejando el proyecto original en docx y lo reduciré manual a otros modos mas tolerables parahacer un sistema funcional. Simplemente la herramienta de marzo tenía fallas, la de junio es catastrófica así que usaré losarchivos originales fusionando y reduciendo a un moonlito funcional, justo lo contrario de l que se esperaba hacer en un principio.
 ---
 
 Este software **NO HA SIDO PROBADO PARA ENTORNOS DE PRODUCCIÓN CRÍTICOS**. 
@@ -29,7 +31,7 @@ Aunque es funcional y auditable, se distribuye como parte de un experimento de *
 
 * **Uso bajo su propio riesgo:** El autor no se hace responsable de la pérdida de datos o fallos de seguridad derivados de su implementación sin una auditoría previa por parte del usuario.
 * **Estado de Desarrollo:** Se considera estable en su lógica de negocio, pero requiere pruebas de estrés y una revisión de seguridad perimetral antes de ser desplegado en servidores con datos sensibles.
-* **Cuidado con Login:** Este sistema no tiene dadosdde alta usuarios ni se han probado, es parte de la prueba de GROK.
+* **Cuidado con Login:** Este sistema no tiene dados de alta usuarios ni se han probado, era parte de la prueba de GROK.
 ---
 ### 🔑 Credenciales de Acceso (Entorno de Prueba)
 usuarios_prueba.sql
