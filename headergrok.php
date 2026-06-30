@@ -1,5 +1,6 @@
 <?php
 // Modelo: Grok (xAI) - Chunk 3: headergrok.php
+// modificado a mano y por Claude  por problemas de Grok.
 // Define variables globales y navbar
 /*
  * DOLGUL - Sistema de Tickets (Vigilancia)
@@ -58,24 +59,21 @@ $es_master    = ($rol === 'Master');
             <?php if ($es_admin): ?>
                 <!-- Menú Administrador -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="catDrop" role="button" data-toggle="dropdown">Catálogos</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="adminDrop" role="button" data-toggle="dropdown">Admin</a>
                     <div class="dropdown-menu">
+                        <h6 class="dropdown-header">Catálogos</h6>
                         <a class="dropdown-item" href="catalogo_categorias.php">Categorías</a>
                         <a class="dropdown-item" href="catalogo_prioridades.php">Prioridades</a>
                         <a class="dropdown-item" href="catalogo_usuarios.php">Usuarios</a>
                         <a class="dropdown-item" href="catalogo_empresas.php">Empresas</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="configDrop" role="button" data-toggle="dropdown">Configuración</a>
-                    <div class="dropdown-menu">
+
+                        <div class="dropdown-divider"></div>
+                        <h6 class="dropdown-header">Configuración</h6>
                         <a class="dropdown-item" href="catalogo_sistemas.php"><?php echo $label_sistemas; ?></a>
                         <a class="dropdown-item" href="catalogo_procesos.php"><?php echo $label_procesos; ?></a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="ligasDrop" role="button" data-toggle="dropdown">Ligas</a>
-                    <div class="dropdown-menu">
+
+                        <div class="dropdown-divider"></div>
+                        <h6 class="dropdown-header">Ligas</h6>
                         <a class="dropdown-item" href="liga_sistema_empresa.php"><?php echo $label_sistemas; ?> ↔ Empresa</a>
                         <a class="dropdown-item" href="liga_consultor_empresa.php">Consultor ↔ Empresa</a>
                         <a class="dropdown-item" href="liga_sistema_proceso.php"><?php echo $label_sistemas; ?> ↔ <?php echo $label_procesos; ?></a>
