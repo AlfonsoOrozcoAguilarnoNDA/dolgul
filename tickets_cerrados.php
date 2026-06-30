@@ -18,9 +18,12 @@
  */
 
 // Modelo: Grok (xAI) - Chunk 18: tickets_cerrados.php
-
+session_start();
 require_once 'headergrok.php';
+echo tickets_cerrados();
 
+function tickets_cerrados(){
+global $link;    
 $rol = $_SESSION['user_role'] ?? 'User';
 $empresa_usuario = (int)($_SESSION['empresa_id'] ?? 1);
 $user_id = (int)($_SESSION['user_id'] ?? 0);
@@ -132,4 +135,5 @@ $result = mysqli_query($link, $query);
 </nav>
 <?php endif; ?>
 
-<?php require_once 'footergrok.php'; ?>
+<?php require_once 'footergrok.php'; }
+?>
