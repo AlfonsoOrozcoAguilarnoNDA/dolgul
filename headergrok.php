@@ -141,7 +141,7 @@ $es_master    = ($rol === 'Master');
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fas fa-times mr-1"></i>Cancelar</button>
-                <a href="logout.php" class="btn btn-danger"><i class="fas fa-sign-out-alt mr-1"></i>Salir</a>
+                <a href="main_tickets.php?module=logout" class="btn btn-danger"><i class="fas fa-sign-out-alt mr-1"></i>Salir</a>
             </div>
         </div>
     </div>
