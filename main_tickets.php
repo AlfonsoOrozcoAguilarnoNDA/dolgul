@@ -19,6 +19,10 @@
 
 // Modelo: Grok (xAI) - 
 
+$m=$_GET['module'] ?? "";
+if ($m=="logout") logout();
+
+
 function dolgul_footer(): string {
     $tiempo_fin = microtime(true);
     $tiempo_total = round($tiempo_fin - $GLOBALS['tiempo_inicio'], 3);
@@ -39,6 +43,34 @@ function dolgul_footer(): string {
 </body>
 </html>';
 } // dolgul_footer
+
+function logout() {
+    // Iniciar la sesión (por si no está iniciada)
+    if (session_status() === PHP_SESSION_NONE) {
+        session_start();
+    }
+
+    // Limpiar todas las variables de sesión
+    $_SESSION = array();
+
+    // Destruir la cookie de sesión si existe
+    if (isset($_COOKIE[session_name()])) {
+        setcookie(session_name(), '', array(
+            'expires'  => time() - 3600,
+            'path'     => '/',
+            'secure'   => true,
+            'httponly' => true,
+            'samesite' => 'Strict'
+        ));
+    }
+
+    // Destruir la sesión
+    session_destroy();
+
+    // Redirigir al login
+    header("Location: login.php");
+    exit();
+} // logout
 
 function catalogo_sistemas(){
 // Chunk 10: catalogo_sistemas.php
