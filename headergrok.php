@@ -22,7 +22,8 @@
 // Modelo: Grok (xAI) - Chunk 3: headergrok.php
 // modificado a mano y por Kimi  por problemas de Grok
 // Define variables globales y navbar
-
+//session_start();
+LoginIfnot();
 $tiempo_inicio = microtime(true);
 $session_usuario = 'YO';  // placeholder - se sobreescribe en login real
 
@@ -158,3 +159,11 @@ $es_master    = ($rol === 'Master');
 ?>
 
 <div id="subcontainer" class="container-fluid pt-5 pb-5">
+<?php
+function LoginIfnot() {
+    if (!isset($_SESSION['user_role']) || $_SESSION['user_role'] == "") {
+        header("Location: login.php");
+        exit();
+    }
+}
+?> // loginifnot
